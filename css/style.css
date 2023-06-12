@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("../imagens/backgrounds/background-marvel.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/*===================================================CABEÇALHO================================================*/
+#cabecalho{
+    background-image: linear-gradient(180deg,rgb(75, 33, 33), rgba(75, 6, 6, 0.623), rgba(104, 23, 23, 0.404));
+    margin-bottom: 30px;
+}
+
+#cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho #logo{
+    width: 100px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#cabecalho #menu a{
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: white;
+}
+/*================================================ FIM CABEÇALHO ==============================================*/
+
+/*================================================ PAGINAS EM GERAL ===========================================*/
+#pages{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+.capas-filmes{
+    max-width: 200px;
+    margin-left: 445px;
+    -moz-box-shadow: 0 0 5px;
+    -webkit-box-shadow: 0 0 5px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+}
+
+#pages h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#pages p{
+    line-height: 1.6em;
+    margin-bottom: 10px; 
+}
+
+#banners{
+    width: 550px;
+    padding: 10px;
+
+}
+
+.grid .container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 10px;
+}
+
+#videos iframe{
+    max-width: 180%;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+/*============================================= PAGINA 01 (BIOGRAFIA) =========================================*/
+.titulo-pag01{
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#atriz{ 
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.biografia{
+    padding-top: 20px;
+}
+
+#atriz img{
+    float: left;
+    margin-right: 20px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+#atriz{
+    margin-left: 129px;
+    margin-top: 65px;
+}
+/*===============================================================================================================*/
+
+
+#rodape-pag1{
+    background-image: linear-gradient(180deg,rgba(75, 33, 33, 0.342), rgba(75, 6, 6, 0.623), rgb(104, 23, 23));
+    color: white;
+    bottom: 0;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  
+}
+
+#rodape{
+    background-image: linear-gradient(180deg,rgba(75, 33, 33, 0.342), rgba(75, 6, 6, 0.623), rgb(104, 23, 23));
+    color: white;
+    bottom: 0;
+    padding: 15px;
+    position: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
